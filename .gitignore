@@ -1,0 +1,96 @@
+# Ignore everything by default so only source/project files are committed.
+*
+
+# Keep directory traversal possible for allowlisted files.
+!*/
+
+# Repository metadata and docs.
+!.gitignore
+!README.md
+!README.*
+!LICENSE
+!LICENSE.*
+
+# Python source and common Python project files.
+!*.py
+!**/*.py
+!requirements*.txt
+!pyproject.toml
+!setup.py
+!setup.cfg
+!Pipfile
+!Pipfile.lock
+!poetry.lock
+
+# Other code/script/config files that are safe to version.
+!*.js
+!*.ts
+!*.jsx
+!*.tsx
+!*.json
+!*.yaml
+!*.yml
+!*.toml
+!*.ini
+!*.cfg
+!*.md
+!*.sql
+!*.sh
+!*.ps1
+
+# Never commit raw data, exports, archives, or large generated artifacts.
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.parquet
+*.feather
+*.pkl
+*.pickle
+*.db
+*.sqlite
+*.sqlite3
+*.jsonl
+*.ndjson
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+
+# Common data/output directories.
+csv/
+data/
+raw/
+datasets/
+exports/
+output/
+outputs/
+reports/
+tmp/
+temp/
+
+# Python/local generated files.
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local environments and secrets.
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# OS/editor noise.
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
