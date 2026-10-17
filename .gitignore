@@ -10,6 +10,7 @@
 !README.*
 !LICENSE
 !LICENSE.*
+!03_baseline_model.ipynb
 
 # Python source and common Python project files.
 !*.py
