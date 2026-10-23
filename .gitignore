@@ -11,6 +11,7 @@
 !LICENSE
 !LICENSE.*
 !03_baseline_model.ipynb
+!04_model_comparison.ipynb
 
 # Python source and common Python project files.
 !*.py
