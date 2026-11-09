@@ -13,6 +13,7 @@
 !03_baseline_model.ipynb
 !04_model_comparison.ipynb
 !05_feature_engineering.ipynb
+!05_advanced_models.ipynb
 
 # Python source and common Python project files.
 !*.py
